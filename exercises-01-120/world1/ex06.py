@@ -1,0 +1,2 @@
+valor_Em_Metros = float(input("\nEnter the value in meters: "))
+print("\nThe value {} meters in centimeters is {:.0f}cm, and in millimeters is {:.0f}mm".format(valor_Em_Metros,valor_Em_Metros*100,valor_Em_Metros*1000))
