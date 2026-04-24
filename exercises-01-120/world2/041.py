@@ -1,17 +1,19 @@
+from datetime import date
+atual = date.today().year
 birth_year = int(input("\nEnter your date of birth: "))
-age = 2026 - birth_year
+age = atual - birth_year
 
 if age <= 9:
-    print("\nChild")
+    print("\nClassification: Child")
 
 elif age <=14:
-    print("\nChildren's")
+    print("\nClassification: Children's")
 
 elif age <=19:
-    print("\nJunior")
+    print("\nClassification: Junior")
 
-elif age <= 20:
-    print("\nSenior")
+elif age <= 25:
+    print("\nClassification: Senior")
 
 else:
-    print("\nMaster")
+    print("\nClassification: Master")

@@ -13,4 +13,4 @@ if comprimento1 < comprimento2 + comprimento3 and comprimento2 < comprimento1 + 
     else:
         print("\nScalene triangle")
 else:
-    print('It is not possible to form a triangle')
+    print('\nIt is not possible to form a triangle')

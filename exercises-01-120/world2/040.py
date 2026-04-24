@@ -4,10 +4,10 @@ score2 = float(input("\nEnter your second note: "))
 average = (score1 + score2) / 2
 
 if average >= 7:
-    print("\nApproved")
+    print("\nThe student was approved")
 
 elif average >= 5:
-    print("\nRecovery")
+    print("\nThe student failed the course.")
 
 else:
-    print("\nFailed")
+    print("\nThe student failed.")
