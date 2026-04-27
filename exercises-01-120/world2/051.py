@@ -5,3 +5,4 @@ tenth = first_term + (10-1) * ratio
 print("\nThe first ten terms of the arithmetic progression:")
 for i in range(first_term, tenth + ratio , ratio):
     print(f"{i}", end = " → ")
+print("End")
