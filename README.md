@@ -3,3 +3,4 @@ Repository dedicated to the exercises completed during the 4 Python courses by [
 
 ## [📁 World 1](exercises-01-120/world1/README.md)
 ## [📁 World 2](exercises-01-120/world2/README.md)
+## [📁 World 3](exercises-01-120\world3/README.md)
