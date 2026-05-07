@@ -22,8 +22,5 @@ serie_b = (
 )
 print("\nThe five first in the table are: ", (serie_b[0:5]))
 print("\nThe four last placed are: ", (serie_b[-4:]))
-serie_b_order = sorted(serie_b)
-print(serie_b_order)
-time = "Sport Recife"
-posicao = serie_b.index(time) + 1
-print(f"\nSport Clube Do Recife is in {posicao}rd place.")
+print(f"\n{sorted(serie_b)}")
+print(f"\nSport Clube Do Recife is in {serie_b.index("Sport Recife")+ 1}rd place.")

@@ -1,4 +1,4 @@
-import random 
+import random
 
 random_numbers = []
 
@@ -6,6 +6,6 @@ for i in range(5):
     number = random.randint(1,100)
     random_numbers.append(number)
 
-print(random_numbers)
-print("\nO menor valor da lista é:",min(random_numbers))
-print("\nO maior valor da lista é:",max(random_numbers))
+print("The numbers drawn were:",random_numbers)
+print("\nThe smallest value in the list is:",min(random_numbers))
+print("\nThe largest value in the list is:",max(random_numbers))

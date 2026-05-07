@@ -7,7 +7,7 @@ numbers = (
 )
 while True:
     chosen_number = int(input("\nEnter a value,from 0 to 20: "))
-    if chosen_number > 20:
+    if chosen_number > 20 or chosen_number < 0:
         print("\nType it again")
     else:
         break
